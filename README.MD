@@ -27,7 +27,7 @@ python script.py mentalhealth anxiety --limit 50
 
 This will:
 
-Search the r/mentalhealth subreddit for posts containing "suicide"
+Search the r/mentalhealth subreddit for posts containing "anxiety"
 
 Retrieve up to 50 of the most recent results from the past month
 
