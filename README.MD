@@ -22,10 +22,7 @@ Create a .env file in the root directory with your Reddit API credentials:
 
 
 # Usage
-## From the terminal
-python script.py <subreddit> <query> --limit <number_of_posts>
-
-# example
+## example
 python script.py mentalhealth anxiety --limit 50
 
 This will:
