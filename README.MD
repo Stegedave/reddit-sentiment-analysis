@@ -11,29 +11,23 @@ This is a command-line Python tool that searches a specific subreddit for recent
 - Customizable number of posts to fetch via CLI
 - Stores output to a predefined directory (e.g., `D:\Coding\Projects\bot\data`)
 
----
-
 ## Requirements
 pip install -r requirements.txt 
 
 ## ⚙️ Setup
 Create a .env file in the root directory with your Reddit API credentials:
-REDDIT_CLIENT_ID=your_client_id
-REDDIT_CLIENT_SECRET=your_client_secret
-REDDIT_USER_AGENT=your_user_agent
-D:\Coding\Projects\bot\data
+- REDDIT_CLIENT_ID=your_client_id
+- REDDIT_CLIENT_SECRET=your_client_secret
+- REDDIT_USER_AGENT=your_user_agent
 
 
-## Usage
-# From the terminal
-python script.py <subreddit> <query> --limit <number_of_posts>
-
-# example
-python script.py mentalhealth suicide --limit 50
+# Usage
+## example
+python script.py mentalhealth anxiety --limit 50
 
 This will:
 
-Search the r/mentalhealth subreddit for posts containing "suicide"
+Search the r/mentalhealth subreddit for posts containing "anxiety"
 
 Retrieve up to 50 of the most recent results from the past month
 
