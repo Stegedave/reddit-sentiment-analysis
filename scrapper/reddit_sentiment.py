@@ -65,7 +65,7 @@ except praw.exceptions.RedditAPIException as e:
     print(f"Reddit API error: {e}")
 except Exception as e:
     print(f"An error occured: {e}")
-
+    
 # check if no posts are found 
 if not results:
     print(f"No results were found for the given query: {query}")
