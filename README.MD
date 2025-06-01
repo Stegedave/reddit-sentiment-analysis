@@ -36,7 +36,7 @@ Filter out posts with 0 comments
 Analyze sentiment
 
 Save the results to:
-D:\Coding\Projects\bot\data\reddit_mentalhealth_suicide_sentiment.csv
+r'D:\Coding\Projects\bot\data'
 
 ## 📊 Output
 Each post is analyzed and saved with the following fields:
