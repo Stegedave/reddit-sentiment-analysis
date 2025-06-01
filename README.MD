@@ -36,7 +36,7 @@ Filter out posts with 0 comments
 Analyze sentiment
 
 Save the results to:
-r'D:\Coding\Projects\bot\data'
+'D:\Coding\Projects\bot\data'
 
 ## 📊 Output
 Each post is analyzed and saved with the following fields:
